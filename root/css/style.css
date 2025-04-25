@@ -1,0 +1,31 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 2rem;
+    background: #f9f9f9;
+    color: #222;
+  }
+  nav a {
+    margin-right: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: #0077cc;
+  }
+  button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    color: white;
+    background: #0077cc;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #005fa3;
+  }
+  .motivation {
+    margin-top: 1.5rem;
+    font-style: italic;
+    color: #888;
+    align-content: center;
+  }

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Risk Management</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/risk-calc.js" defer></script>
+  <link rel="icon" href="../assets/Logo.png">
+</head>
+<body>
+  <h2>💰 Risk Management Calculator</h2>
+  <form id="risk-management-form">
+    <label>Account Balance ($): <input type="number" id="balance" /></label><br><br>
+    <label>Risk Tolerance (%): <input type="number" id="riskPercent" /></label><br><br>
+    <button type="button" onclick="calculateRisk()">Calculate Risk</button>
+    <button type="button" onclick="clear()">Clear</button>
+  </form>
+
+  <div id="riskResult"></div>
+
+  <h4>🧾 Risk-Reward Standards</h4>
+  <ul>
+    <li>Minimum R:R → <strong>1:2.5</strong></li>
+    <li>Maximum R:R → <strong>1:4.5</strong></li>
+  </ul>
+
+</body>
+</html>
