@@ -1,0 +1,101 @@
+/* pages.style.css */
+
+/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+/* Center wrapper */
+.center-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* Form styles */
+form {
+  max-width: 400px;
+  width: 100%;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+input[type="number"],
+input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Enhanced checkbox styling */
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  accent-color: #0077cc;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+/* Button styles */
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  color: white;
+  background: #0077cc;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+/* Back link styles */
+.back-link {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.back-link a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #0051FF;
+  border: 1px solid #0051FF;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.back-link a:hover {
+  background: #0051FF;
+  color: #fff;
+}
+
+/* Motivation text */
+.motivation {
+  margin-top: 1.5rem;
+  font-style: italic;
+  color: #888;
+  text-align: center;
+}

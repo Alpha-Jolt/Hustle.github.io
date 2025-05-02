@@ -1,28 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Risk Management</title>
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/pages-style.css">
   <script src="../js/risk-calc.js" defer></script>
   <link rel="icon" href="../assets/Logo.png">
 </head>
+
 <body>
-  <h2>💰 Risk Management Calculator</h2>
-  <form id="risk-management-form">
-    <label>Account Balance ($): <input type="number" id="balance" /></label><br><br>
-    <label>Risk Tolerance (%): <input type="number" id="riskPercent" /></label><br><br>
-    <button type="button" onclick="calculateRisk()">Calculate Risk</button>
-    <button type="button" onclick="clear()">Clear</button>
-  </form>
+  <div class="center-wrapper">
+    <h2>💰 Risk Management Calculator</h2>
+    <form id="risk-management-form">
+      <label>
+        Account Balance ($):
+        <input type="number" id="balance" />
+      </label>
+      <label>
+        Risk Tolerance (%):
+        <input type="number" id="riskPercent" />
+      </label>
+      <button type="button" onclick="calculateRisk()">Calculate Risk</button>
+      <button type="button" onclick="clearInputs()">Clear</button>
+    </form>
 
-  <div id="riskResult"></div>
+    <div id="riskResult"></div>
 
-  <h4>🧾 Risk-Reward Standards</h4>
-  <ul>
-    <li>Minimum R:R → <strong>1:2.5</strong></li>
-    <li>Maximum R:R → <strong>1:4.5</strong></li>
-  </ul>
+    <div class="center-wrapper">
+      <h3>🧾 Risk-Reward Standards</h3>
+      <form id="risk-standards">
+        <ul>
+          <p>Minimum R:R → <strong>1:2.5</strong></p>
+          <p>Maximum R:R → <strong>1:4.5</strong></p>
+        </ul>
+      </form>
+    </div>
 
+    <div class="back-link">
+      <a href="../index.html">⬅️ Back to Home</a>
+    </div>
+  </div>
 </body>
+
 </html>
